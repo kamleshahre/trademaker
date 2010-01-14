@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.bugzilla.ui",1250907664666
+started,bundle,org.eclipse.mylyn.commons.ui,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.commons.ui",1250907664670
+started,bundle,org.eclipse.mylyn.context.core,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.context.core",1250907664673
+started,bundle,org.eclipse.mylyn.context.ui,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.context.ui",1250907664684
+started,bundle,org.eclipse.mylyn.monitor.ui,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.monitor.ui",1250907664686
+started,bundle,org.eclipse.mylyn.tasks.ui,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.tasks.ui",1250907664692
+started,bundle,org.eclipse.mylyn.team.ui,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.team.ui",1250907664695
+started,bundle,org.eclipse.epp.usagedata.gathering,1.1.0.R200906100410,"org.eclipse.epp.usagedata.gathering",1250907664698
+started,bundle,org.eclipse.epp.usagedata.recording,1.1.0.R200906100410,"org.eclipse.epp.usagedata.recording",1250907664700
+started,bundle,org.eclipse.jpt.eclipselink.core,1.2.0.v200905310000,"org.eclipse.jpt.eclipselink.core",1250907664706
+os,sysinfo,,,"win32",1250907664718
+arch,sysinfo,,,"x86",1250907664718
+ws,sysinfo,,,"win32",1250907664718
+locale,sysinfo,,,"en_CA",1250907664718
+processors,sysinfo,,,"2",1250907664719
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1250907664719
+java.runtime.version,sysinfo,,,"1.7.0-ea-b33",1250907664719
+java.specification.name,sysinfo,,,"Java Platform API Specification",1250907664719
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1250907664719
+java.specification.version,sysinfo,,,"1.7",1250907664719
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1250907664719
+java.version,sysinfo,,,"1.7.0-ea",1250907664719
+java.vm.info,sysinfo,,,"mixed mode",1250907664719
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1250907664719
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1250907664719

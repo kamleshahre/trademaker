@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/184/trunk/src/org/lifeform/market/interpolation
+END
+CubicSpline.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/184/trunk/src/org/lifeform/market/interpolation/CubicSpline.java
+END
+Interpolator.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/120/trunk/src/org/lifeform/market/interpolation/Interpolator.java
+END
+Spline.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/184/trunk/src/org/lifeform/market/interpolation/Spline.java
+END

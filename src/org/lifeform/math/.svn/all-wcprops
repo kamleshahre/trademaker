@@ -1,0 +1,377 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/184/trunk/src/org/lifeform/math
+END
+PolynomialLeastSquareFit.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/PolynomialLeastSquareFit.java
+END
+ODESolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/ODESolver.java
+END
+Derivative.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/Derivative.java
+END
+ODEBisectionEventSolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/ODEBisectionEventSolver.java
+END
+ODEEventSolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/ODEEventSolver.java
+END
+PBC.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/121/trunk/src/org/lifeform/math/PBC.java
+END
+Ralston2.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/Ralston2.java
+END
+Vec3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/Vec3D.java
+END
+VectorFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/VectorFunction.java
+END
+Adams4.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/Adams4.java
+END
+ODEMultistepSolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/ODEMultistepSolver.java
+END
+InvertibleFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/InvertibleFunction.java
+END
+CurveFitting.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/CurveFitting.java
+END
+MultiVarFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/MultiVarFunction.java
+END
+Adams6.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/Adams6.java
+END
+VectorMath.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/VectorMath.java
+END
+Chebyshev.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/Chebyshev.java
+END
+Butcher5.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/Butcher5.java
+END
+StateEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/StateEvent.java
+END
+Heun3.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/Heun3.java
+END
+FFTReal.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/FFTReal.java
+END
+LagrangeInterpolator.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/LagrangeInterpolator.java
+END
+LogBase10Function.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/LogBase10Function.java
+END
+Root.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/Root.java
+END
+ParsedFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/ParsedFunction.java
+END
+RK45.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/RK45.java
+END
+Legendre.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/Legendre.java
+END
+AbstractODESolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/AbstractODESolver.java
+END
+SolverException.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/SolverException.java
+END
+ODESolverFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/121/trunk/src/org/lifeform/math/ODESolverFactory.java
+END
+LevenbergMarquardt.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/LevenbergMarquardt.java
+END
+Statistics.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/Statistics.java
+END
+SuryonoParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/SuryonoParser.java
+END
+HessianMinimize.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/HessianMinimize.java
+END
+LUPDecomposition.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/LUPDecomposition.java
+END
+Hermite.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/Hermite.java
+END
+LeapFrog.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/LeapFrog.java
+END
+RK4.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/RK4.java
+END
+Verlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/Verlet.java
+END
+Integral.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/Integral.java
+END
+FFT2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/FFT2D.java
+END
+CashKarp45.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/CashKarp45.java
+END
+Fehlberg8.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/Fehlberg8.java
+END
+Transformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/Transformation.java
+END
+ODE.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/ODE.java
+END
+ParsedMultiVarFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/ParsedMultiVarFunction.java
+END
+Adams5.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/Adams5.java
+END
+ODEInterpolationSolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/121/trunk/src/org/lifeform/math/ODEInterpolationSolver.java
+END
+Euler.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/Euler.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/Util.java
+END
+FFT.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/FFT.java
+END
+ODEAdaptiveSolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/ODEAdaptiveSolver.java
+END
+FunctionTransform.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/FunctionTransform.java
+END
+NumericMethodException.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/NumericMethodException.java
+END
+MathExpParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/MathExpParser.java
+END
+Polynomial.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/Polynomial.java
+END
+Factorials.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/Factorials.java
+END
+EulerRichardson.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/EulerRichardson.java
+END
+TriggerODE.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/TriggerODE.java
+END
+MatrixTransformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/MatrixTransformation.java
+END
+RK45MultiStep.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/RK45MultiStep.java
+END
+DormandPrince45.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/184/trunk/src/org/lifeform/math/DormandPrince45.java
+END

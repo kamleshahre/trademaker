@@ -1,0 +1,7 @@
+[Startup]
+AppName=Universal Add-ins
+FreeDiskSpace=1346
+EnableLangDlg=Y
+
+[ISUPDATE]
+UpdateURL=http://

@@ -1,0 +1,356 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <link rel = "stylesheet" type = "text/css" href = "body.css">
+  <title>PcGive Demo version</title>
+  <base target = "content">
+</head>
+<body>
+
+<h1>Welcome to the PcGive Demo version</h1><p>
+
+This demo version of PcGive is limited only by the data sets it allows.
+<p>
+In addition to PcGive, STAMP and PcGets tutorial data files:
+<p>
+<table align="center" border="1" cellspacing="1">
+<tr><td>PcGive</td><td>data.in7</td></tr>
+<tr><td>PcGive</td><td>MulTut1.in7</td></tr>
+<tr><td>PcGive</td><td>exch_debp.in7</td></tr>
+<tr><td>PcGive</td><td>finney.in7</td></tr>
+<tr><td>PcGive</td><td>grunfeld.xls</td></tr>
+<tr><td>PcGets</td><td>DHSY.in7</td></tr>
+<tr><td>PcGets</td><td>M1UK.in7</td></tr>
+<tr><td>STAMP</td><td>energy.in7</td></tr>
+<tr><td>STAMP</td><td>spirit.in7</td></tr>
+<tr><td>X12arima</td><td>Airline.xls</td></tr>
+</table>
+<p>
+this version can handle two of the data sets accompanying
+<table align="center">
+<tr><td>
+<i>Market Models: A Guide to Financial Data Analysis</i><br>
+Carol Alexander<br>
+ISBN: 0-471-89975-5<br>
+Published November 2001 by <a href="http://www.wiley.com/Corporate/Website/Objects/Products/0,9049,88213,00.html">Wiley</a><br>
+</td></tr></table>
+
+<p>
+This tutorial explains how the results in chapter 4 (GARCH models) have been obtained. 
+It is based on the US stocks data that are used in that chapter. PcGive also has sophisticated 
+time series modelling capabilities, suitable for all the models that are described in part 3 
+of the book, including cointegration analysis. So that the reader may see this for themselves,
+ this demo version may be used with the equity index data that are used in chapters 11 and 12.
+<p>
+The two additional data sets from 
+<i>Market Models: A Guide to Financial Data Analysis</i> that may be used with this demo are:
+<p>
+<table align="center" border="1" cellspacing="1">
+<tr><td>
+<tt>indices.csv</tt></td><td>1207 daily observations on 4 equity indices (AEX, CAC, DAX, FTSE100) from 1996-01-03 to 2000-10-02
+</td></tr><td>
+<tt>USStocks_close.xls</tt></td><td>1200 daily observations on 20 US stocks from 1996-01-02 to 2000-10-06
+</td></tr>
+</table>
+
+<p>
+<h2>Getting Started</h2><p>
+
+Please begin by reading the Getting Started chapter in the online
+help (available on the internet at <a href="http://www.pcgive.com/pcgivestart.html" target="_top">www.pcgive.com</a>).
+<p>
+
+
+<p>
+<h2>Contents</h2><p>
+<dl>
+<dt><a href = "#dataload">Loading, transforming and graphing the data</a>
+<dt><a href = "#descstats">Descriptive Statistics</a>
+<dt><a href = "#garch">GARCH Estimation</a>
+</dl>
+
+<p>
+<a name = "dataload"></a>
+<h2>Loading, transforming and graphing the data</h2><p>
+First start GiveWinDemo, then PcGive can be started from the <span class="sf">Modules</span>
+menu of GiveWinDemo or, more conveniently, from the Modules group in the
+workspace window on the left-hand side of GiveWinDemo.
+
+Access the <span class="sf">File</span> menu in
+GiveWinDemo and locate <tt>USStocks_close.xls</tt>
+(you have to copy this from the CD accompanying <i>Market Models</i>).
+<p>
+The next step is to create the returns data. This involves
+taking the logarithms of the prices, and then the first differences.
+This can be achieved in one step using the <tt>dlog</tt> function.
+Activate the calculator, and select the stock prices in the
+window on the right-hand side (here only 3 are selected):
+<p>
+<img src = "mm_c1.gif"><br>
+<p>
+Then press the <i>dlog</i> button, and press the = button.
+Confirm the default names (which uses the DL prefix).
+<p>
+The interest is in the volatility, so also create the
+squared returns, either using the calculator, or with the
+following Algebra code:
+<pre>
+    sqrDLaig = DLaig ^ 2;
+    sqrDLaol = DLaol ^ 2;
+    sqrDLaxp = DLaxp ^ 2;
+</pre>
+<p>
+The following figure illustrates for the first three stocks,
+American International Group, American Express and
+America Online: 
+<p>
+<img src = "mm_f1.gif"><br>
+<p>
+To create this graph, click on Graphics
+(either on the toolbar or from the Tools menu), select the series
+in the database window on the right, press the &lt;&lt; button
+to make this the selection, then press the button as shown:
+<p>
+<img src = "mm_c2.gif"><br>
+<p>
+and cancel the dialog.
+<p>To create the sample autocorrelation functions (ACF),
+select the first variable, then press <i>Next: choose graph</i>,
+and select <i>Time series: ACF etc.</i> as shown and then <i>Finish</i>:
+<p>
+<img src = "mm_c3.gif"><br>
+<p>
+Repeat this for the remainder, to see:
+<p>
+<img src = "mm_f2.gif"><br>
+<p>
+
+<p>
+<a name = "descstats"></a>
+<h2>Descriptive Statistics</h2><p>
+
+Start PcGive from the GiveWinDemo workspace window,
+and select <i>Descriptive Statistics</i> from the
+PcGive <i>Model</i> menu (if necessary set the package to
+<i>Econometric Modelling (PcGive)</i> on the <i>Package</i> menu).
+Select DLaig, DLaol and DLaxp,
+click on Ok, and select <i>Normality Tests</i>:
+<p>
+<img src = "mm_c4.gif"><br>
+<p>
+The output is:
+<pre>
+Descriptive statistics for 2 (1) to 1200 (1)
+
+Normality test for DLaig
+Observations            1199
+Mean               0.0012317
+Std.Devn.           0.019626
+Skewness             0.28092
+Excess Kurtosis       1.8233
+Minimum            -0.078282
+Maximum              0.10460
+Asymptotic test:  Chi^2(2) =   181.86 [0.0000]**
+Normality test:   Chi^2(2) =   99.920 [0.0000]**
+
+Normality test for DLaol
+Observations            1199
+Mean               0.0025546
+Std.Devn.           0.041083
+Skewness             0.19038
+Excess Kurtosis       1.5012
+Minimum             -0.18739
+Maximum              0.16508
+Asymptotic test:  Chi^2(2) =   119.83 [0.0000]**
+Normality test:   Chi^2(2) =   76.956 [0.0000]**
+
+Normality test for DLaxp
+Observations            1199
+Mean               0.0012802
+Std.Devn.           0.023069
+Skewness            0.067819
+Excess Kurtosis       1.9412
+Minimum             -0.11493
+Maximum              0.12017
+Asymptotic test:  Chi^2(2) =   189.17 [0.0000]**
+Normality test:   Chi^2(2) =   121.70 [0.0000]**
+</pre>
+
+<p>
+Next, select the squared variables, and select
+<i>Correlogram</i> with lag 4:
+<pre>
+sqrDLaig    : Sample correlogram (ACF) from lag 1 to 4:
+      0.14656      0.11293      0.14190      0.13505
+Portmanteau statistic for 4 lags and 1199 observations: 467.82
+
+sqrDLaol    : Sample correlogram (ACF) from lag 1 to 4:
+      0.11353     0.068872     0.069970     0.056654
+Portmanteau statistic for 4 lags and 1199 observations: 380.455
+
+sqrDLaxp    : Sample correlogram (ACF) from lag 1 to 4:
+      0.23413      0.18664      0.17414      0.14635
+Portmanteau statistic for 4 lags and 1199 observations: 592.169
+</pre>
+<p>
+The first term is the first autocorrelation coefficient of the
+squares.
+
+<p>
+To compute ARCH-LM tests, regress the returns on a constant.
+Ensure that the <i>Package</i> menu is set to <i>Econometric Modelling (PcGive)</i>.
+Activate <i>Single Equation Modelling</i> from the <i>Model</i> menu,
+and select DLaig (if DLaig_1, the first lag of DLaig, is added as
+regressor, delete that from the model):
+<p>
+<img src = "mm_c5.gif"><br>
+<p>
+Next, select the default of OLS in <i>Model Settings</i>, and accept the
+default sample.	Following successful estimation, choose
+<i>Test</i>/<i>Test</i>... and select ARCH with order 1:
+<p>
+<img src = "mm_c6.gif"><br>
+<p>
+This prints the ARCH coefficient, which is very close
+to the first ACF. The first order ARCH-LM test is printed
+as an F-test
+<pre>
+ARCH coefficients:
+  Lag Coefficient  Std.Error
+    1     0.14672     0.0286
+RSS = 0.000665393  sigma = 0.000745888
+
+Testing for error ARCH from lags 1 to 1
+ARCH 1-1 test:    F(1,1196)=   26.315 [0.0000]**
+</pre>
+
+<p>
+An alternative way to compute this statistic is to regress
+sqrDLaig on a constant and sqrDLaig_1:
+<pre>
+EQ( 3) Modelling sqrDLaig by OLS (using USStocks_close.xls)
+       The estimation sample is: 3 to 1200
+
+                  Coefficient  Std.Error  t-value  t-prob Part.R^2
+sqrDLaig_1           0.146582    0.02860     5.12   0.000   0.0215
+Constant          0.000330273 2.444e-005     13.5   0.000   0.1324
+
+sigma             0.000754279  RSS             0.00068044842
+R^2                 0.0214872  F(1,1196) =   26.26 [0.000]**
+log-likelihood        6914.43  DW                       2.03
+no. of observations      1198  no. of parameters           2
+mean(sqrDLaig)    0.000386992  var(sqrDLaig)    5.80459e-007
+</pre>
+<p>
+The Chi<sup>2</sup> statistic is T.R<sup>2</sup> = 1198 * 0.0214872 = 25.74.
+<br><small>
+(Note: when additional regressors are involved, the test
+is based on the R<sup>2</sup> from a regression of the squared residuals
+on lagged squared residuals, see PcGive Volume 1. )
+</small>
+<p>
+The asymmetric version of the test can be computed in a similar
+fashion, by regressing sqrDLaig on a constant and DLaig_1.
+<p>
+The ARCH(1) test for many return series at once can be computed using
+<i>Multiple-equation Dynamic modelling</i>: all the returns are marked as
+endogenous (Y variables), only a Constant as regressor. Then using
+the <i>Test</i>/<i>Test</i> option:
+<pre>
+DLaig       : ARCH 1-1 test:    F(1,1196)=   26.315 [0.0000]**
+DLaol       : ARCH 1-1 test:    F(1,1196)=   17.462 [0.0000]**
+DLaxp       : ARCH 1-1 test:    F(1,1196)=   72.608 [0.0000]**
+</pre>
+
+<p>
+<a name = "garch"></a>
+<h2>GARCH Estimation</h2><p>
+
+Select <i>Volatility Models (GARCH)</i> from the PcGive <i>Package</i> menu.
+Then formulate a model of DLaig on a Constant:
+<p>
+<img src = "mm_c7.gif"><br>
+<p>
+In the next dialog, accept the default of GARCH(1,1):
+<p>
+<img src = "mm_c8.gif"><br>
+<p>
+Estimation is nearly instantaneous:
+<pre>
+VOL( 1) Modelling DLaig by restricted GARCH(1,1) (USStocks_close.xls)
+        The estimation sample is: 2 to 1200
+
+                  Coefficient  Std.Error  robust-SE  t-value  t-prob
+Constant      X    0.00145641  0.0004866  0.0004985     2.92   0.004
+alpha_0       H  2.63324e-006 1.367e-006 1.511e-006     1.74   0.082
+alpha_1       H     0.0465619    0.01041    0.01255     3.71   0.000
+beta_1        H      0.946750    0.01150    0.01304     72.6   0.000
+
+log-likelihood     3101.55668  HMSE                   2.6653
+mean(h_t)         0.000388262  var(h_t)         5.49639e-008
+no. of observations      1199  no. of parameters           4
+AIC.T             -6195.11335  AIC               -5.16690021
+mean(DLaig)         0.0012317  var(DLaig)         0.00038519
+alpha(1)+beta(1)     0.993312  alpha_i+beta_i>=0, alpha(1)+beta(1)<1 
+
+Initial terms of alpha(L)/[1-beta(L)]:
+     0.046562     0.044082     0.041735     0.039513     0.037409     0.035417
+     0.033531     0.031745     0.030055     0.028454     0.026939     0.025505
+
+Used sample mean of squared residuals to start recursion
+Robust-SE based on analytical Information matrix and analytical OPG matrix
+BFGS using analytical derivatives (eps1=0.0001; eps2=0.005):
+Strong convergence
+Used starting values:
+    0.0012317  1.9259e-005      0.56555      0.38445
+</pre>
+<p>
+Graphic analysis, selecting Conditional standard deviation and
+residual correlogram of squares:
+<p>
+<img src = "mm_c9.gif"><br>
+<p>
+shows that the autocorrelation in the squares has been
+removed by the GARCH(1,1) model:
+<p>
+<img src = "mm_f3.gif"><br>
+<p>
+<small>
+Note that GARCH(1,1) models for Ford (f), BankOne (one) and
+Rockwell (rok) returns do converge in PcGive. The first two have
+insignificant alpha_1, DLrok has insignificant beta_1. The GARCH(1,1)
+model for Unicom (ucm) does not converge, although ARCH(1)
+(so p=0, q=1) converges.
+</small>
+<p>
+Asymmetric GARCH models can also be estimated with PcGive.
+In the <i>Model Settings</i> dialog, expand GARCH variations,
+and select Asymmetric GARCH:
+<p>
+<img src = "mm_c10.gif"><br>
+<p>
+Estimation for Cisco Systems gives:
+<pre>
+VOL(15) Modelling DLcsco by restricted AGARCH(1,1) (USStocks_close.xls)
+        The estimation sample is: 2 to 1200
+
+                  Coefficient  Std.Error  robust-SE  t-value  t-prob
+Constant      X    0.00159877  0.0007653  0.0007636     2.09   0.036
+alpha_0       H  1.58551e-005 2.035e-005 2.170e-005    0.731   0.465
+alpha_1       H     0.0860131    0.02105    0.02392     3.60   0.000
+beta_1        H      0.828972    0.03603    0.04477     18.5   0.000
+asymmetry     H     0.0259116   0.006273   0.006440     4.02   0.000
+
+log-likelihood     2602.44627  HMSE                   2.3408
+mean(h_t)          0.00084481  var(h_t)         2.05857e-007
+no. of observations      1199  no. of parameters           5
+AIC.T             -5194.89253  AIC               -4.33268768
+mean(DLcsco)        0.0021406  var(DLcsco)       0.000861546
+alpha(1)+beta(1)     0.914985  alpha_i+beta_i>=0, alpha(1)+beta(1)<1 
+</pre>
+
+<p>
+
+
+</body>
+</html>

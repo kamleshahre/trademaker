@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/184/trunk/src/org/lifeform/time
+END
+Frequency.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/184/trunk/src/org/lifeform/time/Frequency.java
+END
+Period.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/184/trunk/src/org/lifeform/time/Period.java
+END
+DateRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/113/trunk/src/org/lifeform/time/DateRule.java
+END
+TradingSchedule.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/184/trunk/src/org/lifeform/time/TradingSchedule.java
+END
+DayCount.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/184/trunk/src/org/lifeform/time/DayCount.java
+END
+Term.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/184/trunk/src/org/lifeform/time/Term.java
+END
+Holiday.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/184/trunk/src/org/lifeform/time/Holiday.java
+END
+BusinessDayMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/113/trunk/src/org/lifeform/time/BusinessDayMethod.java
+END
+DateUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/184/trunk/src/org/lifeform/time/DateUtil.java
+END
+IBTimeSyncChecker.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/184/trunk/src/org/lifeform/time/IBTimeSyncChecker.java
+END
+Schedule.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/113/trunk/src/org/lifeform/time/Schedule.java
+END
+TradingInterval.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/184/trunk/src/org/lifeform/time/TradingInterval.java
+END

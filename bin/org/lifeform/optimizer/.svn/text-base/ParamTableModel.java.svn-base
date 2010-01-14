@@ -1,0 +1,68 @@
+package org.lifeform.optimizer;
+
+import org.lifeform.service.TableDataModel;
+
+/**
+ * Strategy parameters table model.
+ */
+public class ParamTableModel extends TableDataModel {
+	private static final String[] SCHEMA = { "Parameter", "Min Value",
+			"Max Value", "Step" };
+
+	public ParamTableModel() {
+		setSchema(SCHEMA);
+	}
+
+	@Override
+	public Class<?> getColumnClass(final int column) {
+		return column == 0 ? String.class : Integer.class;
+	}
+
+	@Override
+	public boolean isCellEditable(final int rowIndex, final int columnIndex) {
+		// param name column is fixed and cannot be edited
+		return (columnIndex != 0);
+	}
+
+	public void setParams(final StrategyParams strategyParams) {
+		removeAllData();
+
+		for (StrategyParam param : strategyParams.getAll()) {
+			Object[] row = new Object[getColumnCount() + 1];
+			row[0] = param.getName();
+			row[1] = param.getMin();
+			row[2] = param.getMax();
+			row[3] = param.getStep();
+			addRow(row);
+		}
+	}
+
+	public StrategyParams getParams() {
+		StrategyParams strategyParams = new StrategyParams();
+
+		int rows = getRowCount();
+		for (int rowIndex = 0; rowIndex < rows; rowIndex++) {
+			Object[] row = getRow(rowIndex);
+			String name = (String) row[0];
+
+			int min = (Integer) row[1];
+			int max = (Integer) row[2];
+			int step = (Integer) row[3];
+			strategyParams.add(name, min, max, step);
+		}
+
+		return strategyParams;
+	}
+
+	public long getNumCombinations() {
+		long product = 1;
+		Object[] row;
+
+		for (int rowIndex = 0; rowIndex < getRowCount(); rowIndex++) {
+			row = getRow(rowIndex);
+			product *= (((Integer) row[2] - (Integer) row[1]) / (Integer) row[3]) + 1;
+		}
+
+		return product;
+	}
+}

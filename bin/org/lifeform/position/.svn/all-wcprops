@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/184/trunk/src/org/lifeform/position
+END
+PositionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/184/trunk/src/org/lifeform/position/PositionManager.java
+END
+Position.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/184/trunk/src/org/lifeform/position/Position.java
+END
+PortfolioMirrorItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/184/trunk/src/org/lifeform/position/PortfolioMirrorItem.java
+END
+ProfitAndLoss.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/184/trunk/src/org/lifeform/position/ProfitAndLoss.java
+END
+ProfitAndLossHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/184/trunk/src/org/lifeform/position/ProfitAndLossHistory.java
+END
+OpenOrder.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/184/trunk/src/org/lifeform/position/OpenOrder.java
+END

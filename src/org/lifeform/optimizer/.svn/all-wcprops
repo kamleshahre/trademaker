@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/184/trunk/src/org/lifeform/optimizer
+END
+StrategyOptimizerRunner.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/184/trunk/src/org/lifeform/optimizer/StrategyOptimizerRunner.java
+END
+JBTPreferences.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/146/trunk/src/org/lifeform/optimizer/JBTPreferences.java
+END
+OptimizerDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/184/trunk/src/org/lifeform/optimizer/OptimizerDialog.java
+END
+PerformanceMetric.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/146/trunk/src/org/lifeform/optimizer/PerformanceMetric.java
+END
+StrategyParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/184/trunk/src/org/lifeform/optimizer/StrategyParams.java
+END
+ResultComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/184/trunk/src/org/lifeform/optimizer/ResultComparator.java
+END
+AdvancedOptimizationOptionsDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/184/trunk/src/org/lifeform/optimizer/AdvancedOptimizationOptionsDialog.java
+END
+OptimizerRunner.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/184/trunk/src/org/lifeform/optimizer/OptimizerRunner.java
+END
+OptimizerWorker.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/184/trunk/src/org/lifeform/optimizer/OptimizerWorker.java
+END
+Result.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/184/trunk/src/org/lifeform/optimizer/Result.java
+END
+DivideAndConquerOptimizerRunner.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/184/trunk/src/org/lifeform/optimizer/DivideAndConquerOptimizerRunner.java
+END
+StrategyParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/184/trunk/src/org/lifeform/optimizer/StrategyParam.java
+END
+OptimizationResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/184/trunk/src/org/lifeform/optimizer/OptimizationResult.java
+END
+ParamTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/184/trunk/src/org/lifeform/optimizer/ParamTableModel.java
+END
+ResultsTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/184/trunk/src/org/lifeform/optimizer/ResultsTableModel.java
+END
+PerformanceManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/184/trunk/src/org/lifeform/optimizer/PerformanceManager.java
+END
+BruteForceOptimizerRunner.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/184/trunk/src/org/lifeform/optimizer/BruteForceOptimizerRunner.java
+END

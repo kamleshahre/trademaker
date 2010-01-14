@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/187/trunk/src/org/lifeform/chart/indicator/price
+END
+PriceTrend.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/price/PriceTrend.java
+END
+PriceRSI.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/price/PriceRSI.java
+END
+PriceVolatility.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/price/PriceVolatility.java
+END
+PriceSMA.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/price/PriceSMA.java
+END
+PriceEMA.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/187/trunk/src/org/lifeform/chart/indicator/price/PriceEMA.java
+END
+BollingerBands.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/187/trunk/src/org/lifeform/chart/indicator/price/BollingerBands.java
+END

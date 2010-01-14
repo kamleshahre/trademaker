@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/184/trunk/src/org/lifeform/pricer/solver
+END
+Function.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/184/trunk/src/org/lifeform/pricer/solver/Function.java
+END
+NonLinear.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/184/trunk/src/org/lifeform/pricer/solver/NonLinear.java
+END
+SteffensensSolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/184/trunk/src/org/lifeform/pricer/solver/SteffensensSolver.java
+END

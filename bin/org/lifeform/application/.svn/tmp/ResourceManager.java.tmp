@@ -1,0 +1,77 @@
+package org.lifeform.application;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
+import java.util.HashMap;
+import java.util.Map;
+
+public class ResourceManager extends ResourceLoader {
+	private final Map urlMap = new HashMap();
+
+	public ResourceManager() {
+	}
+
+	@Override
+	public synchronized InputStream getResourceStream(final String resourceName)
+			throws ResourceNotFoundException {
+		try {
+			URL url = getURL(resourceName);
+
+			if (url == null) {
+				throw new ResourceNotFoundException("Can not find resource: "
+						+ resourceName);
+			}
+			return url.openStream();
+		} catch (IOException e) {
+			throw new ResourceNotFoundException("Can not find resource: "
+					+ resourceName + " - Reason: " + e.getMessage());
+		}
+	}
+
+	@Override
+	public long getLastModified(final Resource res) {
+		try {
+			URL url = getURL(res.getName());
+			long lm = url.openConnection().getLastModified();
+			return lm;
+		} catch (Exception e) {
+			return 0;
+		}
+	}
+
+	@Override
+	public boolean isSourceModified(final Resource res) {
+		long lastModified = getLastModified(res);
+		return (lastModified != res.getLastModified());
+	}
+
+	private URL getURL(final String rn) {
+		if (urlMap.containsKey(rn)) {
+			return (URL) urlMap.get(rn);
+		}
+
+		ClassLoader cl = this.getClass().getClassLoader();
+		URL url = cl.getResource(rn);
+
+		if (url != null) {
+			urlMap.put(rn, url);
+		}
+		return url;
+	}
+
+	@Override
+	public void init(final ExtendedProperties arg0) {
+
+	}
+
+	public org.eclipse.swt.graphics.Resource getResource(final URL url) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object getObject(final URL url) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

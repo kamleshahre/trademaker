@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/velocity
+END
+PriceVelocity.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/velocity/PriceVelocity.java
+END
+PriceVolatilityVelocity.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/velocity/PriceVolatilityVelocity.java
+END
+BalanceVelocity.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/velocity/BalanceVelocity.java
+END
+TrendStrengthVelocity.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/velocity/TrendStrengthVelocity.java
+END
+TrendVelocity.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/velocity/TrendVelocity.java
+END
+TrendStrength.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/velocity/TrendStrength.java
+END

@@ -1,0 +1,26 @@
+package org.lifeform.market;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public enum MarketDepthSide {
+
+	Ask(0), Bid(1);
+
+	private final int value;
+	private static final Map<Integer, MarketDepthSide> sides = new HashMap<Integer, MarketDepthSide>();
+
+	private MarketDepthSide(int value) {
+		this.value = value;
+	}
+
+	public static MarketDepthSide getSide(int value) {
+		return sides.get(value);
+	}
+
+	static {
+		for (MarketDepthSide side : values()) {
+			sides.put(side.value, side);
+		}
+	}
+}

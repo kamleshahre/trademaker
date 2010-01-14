@@ -1,0 +1,17 @@
+what,kind,bundleId,bundleVersion,description,time
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1250907664719
+java.vm.specification.version,sysinfo,,,"1.0",1250907664719
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1250907664719
+java.vm.version,sysinfo,,,"14.0-b01",1250907664719
+activated,view,org.eclipse.ui.navigator.resources,3.4.0.I20090525-2000,"org.eclipse.ui.navigator.ProjectExplorer",1250907665963
+activated,view,org.eclipse.ui.navigator.resources,3.4.0.I20090525-2000,"org.eclipse.ui.navigator.ProjectExplorer",1250907665981
+closed,view,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.internal.introview",1250907666054
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250907686054
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250907689199
+closed,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250907689398
+stopped,bundle,org.eclipse.jst.ws.axis.creation.ui,1.0.406.v200903031852,"org.eclipse.jst.ws.axis.creation.ui",1250907691091
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.ui,1.0.405.v200901261650,"org.eclipse.jst.ws.axis.consumption.ui",1250907691095
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.core,1.0.306.v200810082309,"org.eclipse.jst.ws.axis.consumption.core",1250907691099
+stopped,bundle,org.eclipse.jst.ws.axis2.creation.ui,1.0.103.v200807162242,"org.eclipse.jst.ws.axis2.creation.ui",1250907691105
+stopped,bundle,org.eclipse.jst.ws.axis2.consumption.ui,1.0.102.v200807232000,"org.eclipse.jst.ws.axis2.consumption.ui",1250907691109
+stopped,bundle,org.eclipse.jst.ws.axis2.creation.core,1.0.105.v200901220134,"org.eclipse.jst.ws.axis2.creation.core",1250907691115

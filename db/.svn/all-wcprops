@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/192/trunk/db
+END
+config.sql
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/192/trunk/db/config.sql
+END
+configuration.sql
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/192/trunk/db/configuration.sql
+END
+trademaker.db.script
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/192/trunk/db/trademaker.db.script
+END
+propertyset.sql
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/192/trunk/db/propertyset.sql
+END
+trademaker.db.properties
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/192/trunk/db/trademaker.db.properties
+END

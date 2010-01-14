@@ -1,0 +1,231 @@
+package org.lifeform.util;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.URL;
+import java.net.URLClassLoader;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Enumeration;
+import java.util.List;
+import java.util.Vector;
+import java.util.jar.JarEntry;
+import java.util.jar.JarFile;
+
+import org.lifeform.report.format.CSV;
+import org.lifeform.report.format.HTML;
+import org.lifeform.report.format.Text;
+import org.lifeform.strategy.ForexAntiTrend;
+import org.lifeform.strategy.ForexTrend;
+import org.lifeform.strategy.ForexTrendArbitrage;
+import org.lifeform.strategy.HolyGrail;
+import org.lifeform.strategy.Ranger;
+import org.lifeform.strategy.Scalper;
+import org.lifeform.strategy.SlopeOfForce;
+import org.lifeform.strategy.TrendArbitrage;
+import org.lifeform.strategy.TrendFollower;
+
+public class ClassFinder {
+	List<Class<?>> classes = new ArrayList<Class<?>>();
+
+	/**
+	 * Searches the classpath (including inside the JAR files) to find classes
+	 * that extend the specified superclass. The intent is to be able to
+	 * implement new strategy classes as "plug-and-play" units of JSystemTrader.
+	 * That is, JSystemTrader will know how to run the trading strategy as long
+	 * as this strategy is implemented in a class that extends the base Strategy
+	 * class.
+	 */
+	public List<Class<?>> getSubClasses(final String packageName,
+			final String superClassName) throws URISyntaxException, IOException,
+			ClassNotFoundException {
+		return getClasses(packageName, superClassName, false);
+	}
+
+	public List<Class<?>> getStrategies() throws URISyntaxException,
+			IOException, ClassNotFoundException {
+		// TODO fix this
+		Vector<Class<?>> result = new Vector<Class<?>>();
+		result.add(ForexAntiTrend.class);
+		result.add(ForexTrend.class);
+		result.add(ForexTrendArbitrage.class);
+		result.add(HolyGrail.class);
+		result.add(Scalper.class);
+		result.add(Ranger.class);
+		result.add(SlopeOfForce.class);
+		result.add(TrendArbitrage.class);
+		result.add(TrendFollower.class);
+		return result;
+	}
+	
+	public List<Class<?>> getReportFormats() {
+		ArrayList<Class<?>> classList = new ArrayList<Class<?>>();
+		classList.add(HTML.class);
+		classList.add(CSV.class);
+		classList.add(Text.class);
+		return classList;
+	}
+
+	public List<Class<?>> getInterfaces(final String packageName, final String interfaceName)
+			throws URISyntaxException, IOException, ClassNotFoundException {
+		return getClasses(packageName, interfaceName, true);
+	}
+
+	public List<Class<?>> getClasses(final String packageName, final String parentName,
+			final boolean parentIsInterface) throws URISyntaxException, IOException,
+			ClassNotFoundException {
+
+		String packagePath = packageName.replace('.', '/');
+		URL[] classpath = ((URLClassLoader) ClassLoader.getSystemClassLoader())
+				.getURLs();
+
+		// Vector<URL> classpath = new Vector<URL>(Arrays.asList(classpaths));
+		// classpath.add(new URL("file:/E:/Projects/trademaker/bin/"));
+		if (classes.size() == 0) {
+
+			for (URL url : classpath) {
+				System.out.println("Searching uri: " + url);
+				List<String> classNames = new ArrayList<String>();
+
+				ClassLoader classLoader = new URLClassLoader(new URL[] { url });
+				URI uri = url.toURI();
+				File file = new File(uri);
+
+				if (file.getPath().endsWith(".jar")) {
+					if (file.exists()) {
+						JarFile jarFile = new JarFile(file);
+						for (Enumeration<JarEntry> entries = jarFile.entries(); entries
+								.hasMoreElements();) {
+							String entryName = (entries.nextElement())
+									.getName();
+							if (entryName
+									.matches(packagePath + "/\\w*\\.class")) {// get
+								// only
+								// class
+								// files
+								// in
+								// package
+								// dir
+								String className = entryName.replace('/', '.')
+										.substring(0,
+												entryName.lastIndexOf('.'));
+								classNames.add(className);
+							}
+						}
+					}
+				} else {// directory
+					Vector<String> names = getClassNames(file.getPath());
+					// classNames.addAll(names);
+					names.addAll(formatNames(packageName, names));
+				}
+
+				// make sure the strategy extends the base parentName class
+				for (String className : classNames) {
+					try {
+
+						Class<?> clazz = classLoader.loadClass(className);
+						if (parentIsInterface) {
+							boolean interfaceFound = false;
+							for (Class<?> implementedInterface : clazz
+									.getInterfaces()) {
+								if (implementedInterface.getName().equals(
+										parentName)) {
+									interfaceFound = true;
+									break;
+								}
+							}
+							if (interfaceFound) {
+								classes.add(clazz);
+							}
+						} else if (clazz.getSuperclass() != null
+								&& clazz.getSuperclass().getName().equals(
+										parentName)) {
+							classes.add(clazz);
+						}
+					} catch (Exception e) {
+						System.out.println(e.getMessage());
+					}
+
+				}
+			}
+
+			// Java Web Start support
+			ClassLoader cl = getClass().getClassLoader();
+			if (cl.getClass().getSimpleName().equals("JNLPClassLoader")) {
+				BufferedReader strategies = new BufferedReader(
+						new InputStreamReader(cl
+								.getResourceAsStream("strategies.txt")));
+				for (String strategy; (strategy = strategies.readLine()) != null;) {
+					String className = packageName + "."
+							+ strategy.substring(0, strategy.lastIndexOf("."));
+					Class<?> clazz = Class.forName(className);
+					classes.add(clazz);
+				}
+				strategies.close();
+			}
+			// End of Java Web Start support
+
+			Collections.sort(classes, new Comparator<Class<?>>() {
+				public int compare(final Class<?> o1, final Class<?> o2) {
+					return o1.getName().compareTo(o2.getName());
+				}
+			});
+		}
+		return classes;
+	}
+
+	public Vector<String> getClassNames(final String path) {
+		Vector<String> classNames = new Vector<String>();
+		File fPath = new File(path);
+		for (File f : fPath.listFiles()) {
+			if (f.getPath().endsWith(".class")) {
+				String className = f.getPath();
+				System.out.println("Adding: " + className);
+				classNames.add(f.toURI().toString());
+			}
+			if (f.isDirectory()) {
+				classNames.addAll(getClassNames(f.getAbsolutePath()));
+			}
+		}
+		return classNames;
+	}
+
+	public Vector<String> formatNames(final String path, final Vector<String> classNames) {
+		Vector<String> names = new Vector<String>();
+		for (String name : classNames) {
+			String newName = name.replace("\\", ".");
+			newName = newName.replace("/", ".");
+			System.out.println(newName);
+			int index = newName.indexOf(path);
+			if (index != -1) {
+				newName = newName.substring(index);
+				newName.replace(".class", "");
+				index = newName.indexOf("$");
+				if (index != -1) {
+					newName = newName.substring(0, index);
+				}
+				names.add(newName);
+			}
+		}
+		return names;
+	}
+
+	public String[] getStrategyNames() throws Exception {
+		String[] names;
+		List<Class<?>> classes = getStrategies();
+		List<String> classNames = new ArrayList<String>();
+
+		for (Class<?> strategyClass : classes) {
+			classNames.add(strategyClass.getSimpleName());
+		}
+		names = classNames.toArray(new String[classNames.size()]);
+		Arrays.sort(names);
+		return names;
+	}
+}

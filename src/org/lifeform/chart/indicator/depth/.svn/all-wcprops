@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/187/trunk/src/org/lifeform/chart/indicator/depth
+END
+DepthBalanceStrengthStdDev.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/187/trunk/src/org/lifeform/chart/indicator/depth/DepthBalanceStrengthStdDev.java
+END
+DepthBalanceRSI.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/depth/DepthBalanceRSI.java
+END
+DepthPriceCorrelation.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/depth/DepthPriceCorrelation.java
+END
+DepthBalanceStrengthSMA.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/187/trunk/src/org/lifeform/chart/indicator/depth/DepthBalanceStrengthSMA.java
+END
+DepthBalance.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/146/trunk/src/org/lifeform/chart/indicator/depth/DepthBalance.java
+END
+DepthBalanceSMA.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/187/trunk/src/org/lifeform/chart/indicator/depth/DepthBalanceSMA.java
+END
+DepthBalanceStrengthEMA.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/187/trunk/src/org/lifeform/chart/indicator/depth/DepthBalanceStrengthEMA.java
+END
+DepthBalanceEMA.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/depth/DepthBalanceEMA.java
+END

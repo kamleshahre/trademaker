@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="lib/liquidlnf.jar"/>
+	<classpathentry kind="lib" path="lib/OTFeed.jar"/>
+	<classpathentry kind="lib" path="lib/activeobjects-0.8.2.jar"/>
+	<classpathentry kind="lib" path="lib/API-9.4.jar"/>
+	<classpathentry kind="lib" path="lib/Buoy.jar"/>
+	<classpathentry kind="lib" path="lib/commons-math-2.0.jar"/>
+	<classpathentry kind="lib" path="lib/mail.jar"/>
+	<classpathentry kind="lib" path="lib/jcommon-1.0.9.jar"/>
+	<classpathentry kind="lib" path="lib/jfreechart-1.0.6.jar"/>
+	<classpathentry kind="lib" path="lib/joda-time-1.5.jar"/>
+	<classpathentry kind="lib" path="lib/jcalendar-1.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/hsqldb.jar" sourcepath="E:/Projects/hsqldb/src"/>
+	<classpathentry kind="lib" path="lib/commons-daemon.jar" sourcepath="E:/Projects/daemon-1.0.1"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.core.commands_3.5.0.I20090525-2000.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.equinox.app_1.2.0.v20090520-1800.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.equinox.common_3.5.0.v20090520-1800.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.equinox.concurrent_1.0.0.v20090520-1800.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.equinox.ds_1.1.0.v20090601.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.jface_3.5.0.I20090525-2000.jar" sourcepath="/ECLIPSE_HOME/plugins/org.eclipse.jface.source_3.5.0.I20090525-2000.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.jface.databinding_1.3.0.I20090525-2000.jar" sourcepath="/ECLIPSE_HOME/plugins/org.eclipse.jface.databinding.source_1.3.0.I20090525-2000.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.jface.text_3.5.0.v20090602.jar" sourcepath="/ECLIPSE_HOME/plugins/org.eclipse.jface.text.source_3.5.0.v20090602.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.osgi_3.5.0.v20090520.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.osgi.services_3.2.0.v20090520-1800.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.osgi.util_3.2.0.v20090520-1800.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.ui.workbench_3.5.0.I20090603-2000.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.ui.workbench.texteditor_3.5.0.v20090603.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/propertyset-1.3.jar" sourcepath="/media/Removable/Projects/source/src"/>
+	<classpathentry kind="lib" path="/org.eclipse.swt.gtk.linux.x86_64/libcairo-swt.so"/>
+	<classpathentry kind="lib" path="/org.eclipse.swt.gtk.linux.x86_64/swt.jar" sourcepath="/media/Removable/Projects/org.eclipse.swt.gtk.linux.x86_64/@dot/org"/>
+	<classpathentry kind="lib" path="lib/OtpErlang.jar"/>
+	<classpathentry kind="lib" path="lib/velocity-1.6.2.jar"/>
+	<classpathentry kind="lib" path="lib/jakarta-oro-2.0.8.jar"/>
+	<classpathentry kind="lib" path="lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.nebula.cwt_0.9.0.HEAD.jar"/>
+	<classpathentry kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.nebula.widgets.cdatetime_0.14.0.HEAD.jar"/>
+	<classpathentry kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.nebula.widgets.collapsiblebuttons_1.0.0.jar"/>
+	<classpathentry kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.nebula.widgets.compositetable_1.0.0.jar"/>
+	<classpathentry kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.nebula.widgets.ctree_0.8.0.jar"/>
+	<classpathentry kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.nebula.widgets.datechooser_1.0.0.HEAD.jar"/>
+	<classpathentry kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.nebula.widgets.formattedtext_1.0.0.HEAD.jar"/>
+	<classpathentry kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.nebula.widgets.gallery_0.5.2.HEAD.jar"/>
+	<classpathentry kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.nebula.widgets.grid_1.0.0.HEAD.jar"/>
+	<classpathentry kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.nebula.widgets.pgroup_1.0.0.HEAD.jar"/>
+	<classpathentry kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.nebula.widgets.pshelf_1.0.0.HEAD.jar"/>
+	<classpathentry kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.nebula.widgets.radiogroup_0.1.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

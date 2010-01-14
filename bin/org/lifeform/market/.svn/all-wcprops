@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/196/trunk/src/org/lifeform/market
+END
+Snapshot.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/184/trunk/src/org/lifeform/market/Snapshot.java
+END
+BarSize.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/146/trunk/src/org/lifeform/market/BarSize.java
+END
+StockQuote.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/184/trunk/src/org/lifeform/market/StockQuote.java
+END
+MarketItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/134/trunk/src/org/lifeform/market/MarketItem.java
+END
+MarketSnapshot.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/184/trunk/src/org/lifeform/market/MarketSnapshot.java
+END
+MarketDepth.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/184/trunk/src/org/lifeform/market/MarketDepth.java
+END
+MarketSnapshotFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/184/trunk/src/org/lifeform/market/MarketSnapshotFilter.java
+END
+QuoteException.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/184/trunk/src/org/lifeform/market/QuoteException.java
+END
+MarketDepthSide.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/146/trunk/src/org/lifeform/market/MarketDepthSide.java
+END
+QuoteHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/184/trunk/src/org/lifeform/market/QuoteHistory.java
+END
+QuoteHistoryEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/184/trunk/src/org/lifeform/market/QuoteHistoryEvent.java
+END
+Market.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/184/trunk/src/org/lifeform/market/Market.java
+END
+Curve.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/184/trunk/src/org/lifeform/market/Curve.java
+END
+PriceBar.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/184/trunk/src/org/lifeform/market/PriceBar.java
+END
+MarketDepthItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/184/trunk/src/org/lifeform/market/MarketDepthItem.java
+END
+MarketDepthOperation.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/146/trunk/src/org/lifeform/market/MarketDepthOperation.java
+END
+BarFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/184/trunk/src/org/lifeform/market/BarFactory.java
+END
+Quote.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/184/trunk/src/org/lifeform/market/Quote.java
+END
+CurvePoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/184/trunk/src/org/lifeform/market/CurvePoint.java
+END
+MarketBook.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/184/trunk/src/org/lifeform/market/MarketBook.java
+END

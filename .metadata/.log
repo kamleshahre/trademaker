@@ -1,0 +1,34 @@
+!SESSION 2009-08-21 22:21:34.157 -----------------------------------------------
+eclipse.buildId=I20090611-1540
+java.version=1.7.0-ea
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data F:\Projects\TradeMaker -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2009-08-21 22:24:29.167
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:141)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:33)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:234)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.BuildPathsBlock.createProject(BuildPathsBlock.java:697)
+	at org.eclipse.jdt.ui.wizards.JavaCapabilityConfigurationPage.createProject(JavaCapabilityConfigurationPage.java:251)
+	at org.eclipse.jdt.ui.wizards.NewJavaProjectWizardPageTwo.updateProject(NewJavaProjectWizardPageTwo.java:231)
+	at org.eclipse.jdt.ui.wizards.NewJavaProjectWizardPageTwo.access$2(NewJavaProjectWizardPageTwo.java:198)
+	at org.eclipse.jdt.ui.wizards.NewJavaProjectWizardPageTwo$1$UpdateRunnable.run(NewJavaProjectWizardPageTwo.java:159)
+	at org.eclipse.ui.actions.WorkspaceModifyDelegatingOperation.execute(WorkspaceModifyDelegatingOperation.java:69)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: OK
+Contains: F:\Projects overlaps the workspace location: F:\Projects\TradeMaker
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2009-08-21 22:24:29.170
+!MESSAGE Invalid project description.
+!SUBENTRY 2 org.eclipse.core.runtime 0 0 2009-08-21 22:24:29.170
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2009-08-21 22:24:29.170
+!MESSAGE F:\Projects overlaps the workspace location: F:\Projects\TradeMaker

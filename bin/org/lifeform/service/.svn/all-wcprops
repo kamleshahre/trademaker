@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/190/trunk/src/org/lifeform/service
+END
+ErrorListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/184/trunk/src/org/lifeform/service/ErrorListener.java
+END
+PreferencesHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/184/trunk/src/org/lifeform/service/PreferencesHolder.java
+END
+TradingTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/184/trunk/src/org/lifeform/service/TradingTableModel.java
+END
+TableDataModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/184/trunk/src/org/lifeform/service/TableDataModel.java
+END
+Dispatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/184/trunk/src/org/lifeform/service/Dispatcher.java
+END
+FileServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/184/trunk/src/org/lifeform/service/FileServer.java
+END
+ModelListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/184/trunk/src/org/lifeform/service/ModelListener.java
+END
+MainController.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/190/trunk/src/org/lifeform/service/MainController.java
+END
+MultiThreadedService.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/184/trunk/src/org/lifeform/service/MultiThreadedService.java
+END

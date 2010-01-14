@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/184/trunk/src/org/lifeform/strategy
+END
+LoadTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/184/trunk/src/org/lifeform/strategy/LoadTest.java
+END
+ForexTrend.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/184/trunk/src/org/lifeform/strategy/ForexTrend.java
+END
+ForexTrendArbitrage.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/184/trunk/src/org/lifeform/strategy/ForexTrendArbitrage.java
+END
+Strategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/184/trunk/src/org/lifeform/strategy/Strategy.java
+END
+SlopeOfForce.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/184/trunk/src/org/lifeform/strategy/SlopeOfForce.java
+END
+TrendFollower.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/184/trunk/src/org/lifeform/strategy/TrendFollower.java
+END
+Scalper.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/184/trunk/src/org/lifeform/strategy/Scalper.java
+END
+HolyGrail.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/184/trunk/src/org/lifeform/strategy/HolyGrail.java
+END
+StrategyRunner.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/184/trunk/src/org/lifeform/strategy/StrategyRunner.java
+END
+ForexAntiTrend.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/184/trunk/src/org/lifeform/strategy/ForexAntiTrend.java
+END
+TrendArbitrage.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/184/trunk/src/org/lifeform/strategy/TrendArbitrage.java
+END
+Ranger.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/184/trunk/src/org/lifeform/strategy/Ranger.java
+END

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<project name="trademaker" default="Main Build" basedir=".">
+    <property name="bin" location="bin"/>
+    <property name="src" location="src"/>
+    <property name="jardir" location="${bin}/lib"/>
+    <property name="jarfile" location="${jardir}/trademaker.jar"/>
+    <!-- <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+	-->
+	<target name="Main Build" depends="Initialize, Compile, Jar">
+	        <echo message="Ant at work!"/>
+	</target>
+	<target name="Initialize">
+	    <delete dir="${bin}"/>
+	    <delete dir="${jardir}"/>
+	    <mkdir dir="${bin}"/>
+	    <mkdir dir="${jardir}"/>
+	</target>
+	<target name="Compile" depends="Initialize">
+	    <javac srcdir="${src}" 
+	        destdir="${bin}">
+	    </javac>
+	</target>
+	<target name="Jar" depends="Initialize, Compile">
+	    <jar destfile="${jarfile}" basedir="${bin}"/>
+	</target>
+</project>

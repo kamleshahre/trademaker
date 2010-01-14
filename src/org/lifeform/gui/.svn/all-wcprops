@@ -1,0 +1,275 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/198/trunk/src/org/lifeform/gui
+END
+NotifierDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/193/trunk/src/org/lifeform/gui/NotifierDialog.java
+END
+UpperText.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/UpperText.java
+END
+SimpleTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/SimpleTable.java
+END
+InternalShell.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/188/trunk/src/org/lifeform/gui/InternalShell.java
+END
+Hyperlink.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/Hyperlink.java
+END
+TitleBar.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/188/trunk/src/org/lifeform/gui/TitleBar.java
+END
+MessageWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/MessageWindow.java
+END
+LocalizedStrings.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/188/trunk/src/org/lifeform/gui/LocalizedStrings.java
+END
+DateText.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/DateText.java
+END
+SearchCombo.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/176/trunk/src/org/lifeform/gui/SearchCombo.java
+END
+DateSelectedEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/DateSelectedEvent.java
+END
+DatePickerStyle.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/DatePickerStyle.java
+END
+DesktopForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/188/trunk/src/org/lifeform/gui/DesktopForm.java
+END
+ClipBoard.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/198/trunk/src/org/lifeform/gui/ClipBoard.java
+END
+SWediT.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/SWediT.java
+END
+TitleBarButton.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/188/trunk/src/org/lifeform/gui/TitleBarButton.java
+END
+LiveSashForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/188/trunk/src/org/lifeform/gui/LiveSashForm.java
+END
+CustomDrawnButton.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/188/trunk/src/org/lifeform/gui/CustomDrawnButton.java
+END
+HourSelectionCombo.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/188/trunk/src/org/lifeform/gui/HourSelectionCombo.java
+END
+TextColors.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/TextColors.java
+END
+ToolbarShellExample.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/ToolbarShellExample.java
+END
+TitledSeparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/TitledSeparator.java
+END
+SimpleMenuConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/SimpleMenuConfiguration.java
+END
+SimpleCellModifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/188/trunk/src/org/lifeform/gui/SimpleCellModifier.java
+END
+SizeBorder.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/SizeBorder.java
+END
+PictureLabel.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/188/trunk/src/org/lifeform/gui/PictureLabel.java
+END
+DatePicker.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/DatePicker.java
+END
+MainWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/188/trunk/src/org/lifeform/gui/MainWindow.java
+END
+PropertyTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/PropertyTableModel.java
+END
+BalloonWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/188/trunk/src/org/lifeform/gui/BalloonWindow.java
+END
+DesktopListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/188/trunk/src/org/lifeform/gui/DesktopListener.java
+END
+CompletionEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/188/trunk/src/org/lifeform/gui/CompletionEditor.java
+END
+FramedComposite.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/FramedComposite.java
+END
+StrategyCombo.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/StrategyCombo.java
+END
+MenuMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/MenuMaker.java
+END
+TrayIcon.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/TrayIcon.java
+END
+NotificationType.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/193/trunk/src/org/lifeform/gui/NotificationType.java
+END
+DateSelectionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/DateSelectionListener.java
+END
+ParamTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/ParamTableModel.java
+END
+CustomSeparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/CustomSeparator.java
+END
+DatePickerCombo.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/188/trunk/src/org/lifeform/gui/DatePickerCombo.java
+END
+MenuConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/182/trunk/src/org/lifeform/gui/MenuConfiguration.java
+END
+SizeGrip.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/SizeGrip.java
+END
+SuperLabel.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/SuperLabel.java
+END
+ScaledImage.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/ScaledImage.java
+END

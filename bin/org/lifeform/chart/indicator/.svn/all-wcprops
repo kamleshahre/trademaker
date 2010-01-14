@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/187/trunk/src/org/lifeform/chart/indicator
+END
+Stochastic.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/Stochastic.java
+END
+MACD.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/MACD.java
+END
+HMA.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/HMA.java
+END
+LSValueInd.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/LSValueInd.java
+END
+IndicatorManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/IndicatorManager.java
+END
+TrailIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/TrailIndicator.java
+END
+LeastSquaresValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/LeastSquaresValue.java
+END
+SMAInd.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/SMAInd.java
+END
+ADX.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/ADX.java
+END
+RSI2.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/RSI2.java
+END
+LeastSquaresSlope.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/LeastSquaresSlope.java
+END
+ChartableIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/ChartableIndicator.java
+END
+PeriodHigh.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/PeriodHigh.java
+END
+ROC.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/ROC.java
+END
+BollingerLower.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/BollingerLower.java
+END
+ForceIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/ForceIndex.java
+END
+ATR.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/ATR.java
+END
+BollingerUpper.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/BollingerUpper.java
+END
+RSI.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/RSI.java
+END
+EMA.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/EMA.java
+END
+PeriodLow.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/PeriodLow.java
+END
+ProbabilisticRSI.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/ProbabilisticRSI.java
+END
+TrendDivergence.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/TrendDivergence.java
+END
+IndicatorValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/IndicatorValue.java
+END
+TrueTrend.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/TrueTrend.java
+END
+Indicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/Indicator.java
+END
+NoiseAdjustedRSI.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/NoiseAdjustedRSI.java
+END
+SMA.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/SMA.java
+END
+Slope.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/Slope.java
+END
+WMA.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/WMA.java
+END
+VolumeRSI.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/VolumeRSI.java
+END
+SmoothedVRSI.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/SmoothedVRSI.java
+END
+EMAnAlpha.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/EMAnAlpha.java
+END
+MACDTrigger.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/MACDTrigger.java
+END
+BollingerMiddle.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/184/trunk/src/org/lifeform/chart/indicator/BollingerMiddle.java
+END

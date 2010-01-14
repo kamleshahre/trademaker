@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/184/trunk/src/org/lifeform/counterparty
+END
+Counterparty.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/184/trunk/src/org/lifeform/counterparty/Counterparty.java
+END
+Customer.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/184/trunk/src/org/lifeform/counterparty/Customer.java
+END
+LegalEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/184/trunk/src/org/lifeform/counterparty/LegalEntity.java
+END
+LegalEntityId.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/117/trunk/src/org/lifeform/counterparty/LegalEntityId.java
+END

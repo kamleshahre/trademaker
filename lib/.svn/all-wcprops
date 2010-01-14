@@ -1,0 +1,371 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/194/trunk/lib
+END
+jga-0.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/139/trunk/lib/jga-0.8.jar
+END
+antlrworks-1.2.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/147/trunk/lib/antlrworks-1.2.3.jar
+END
+AdjustedBarrier_src.zip
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/81/trunk/lib/AdjustedBarrier_src.zip
+END
+jna.jar
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/139/trunk/lib/jna.jar
+END
+jama.jar
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/81/trunk/lib/jama.jar
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/178/trunk/lib/.project
+END
+joda-time-1.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/81/trunk/lib/joda-time-1.5.jar
+END
+iplots.jar
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/81/trunk/lib/iplots.jar
+END
+jaxlib-0.6.4-tcol.jar
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/139/trunk/lib/jaxlib-0.6.4-tcol.jar
+END
+gaussapi.jar
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/81/trunk/lib/gaussapi.jar
+END
+jfreechart-1.0.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/139/trunk/lib/jfreechart-1.0.6.jar
+END
+jfreechart.jar
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/81/trunk/lib/jfreechart.jar
+END
+jakarta-oro-2.0.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/178/trunk/lib/jakarta-oro-2.0.8.jar
+END
+swt.jar
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/185/trunk/lib/swt.jar
+END
+Buoy.jar
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/139/trunk/lib/Buoy.jar
+END
+log4j.jar
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/81/trunk/lib/log4j.jar
+END
+API-9.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/139/trunk/lib/API-9.4.jar
+END
+fuse-esb-4.1.0.2-src.zip
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/139/trunk/lib/fuse-esb-4.1.0.2-src.zip
+END
+JGR.jar
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/81/trunk/lib/JGR.jar
+END
+concurrent.jar
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/81/trunk/lib/concurrent.jar
+END
+jstatcom.jar
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/139/trunk/lib/jstatcom.jar
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/178/trunk/lib/.classpath
+END
+commons-collections-3.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/181/trunk/lib/commons-collections-3.2.1.jar
+END
+liquidlnf.jar
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/81/trunk/lib/liquidlnf.jar
+END
+jhall.jar
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/81/trunk/lib/jhall.jar
+END
+jdk-6u18-ea-bin-b01-jrl-20_aug_2009.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/141/trunk/lib/jdk-6u18-ea-bin-b01-jrl-20_aug_2009.jar
+END
+javaGD.jar
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/81/trunk/lib/javaGD.jar
+END
+junit-4.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/81/trunk/lib/junit-4.5.jar
+END
+jxl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/81/trunk/lib/jxl.jar
+END
+commons-math-2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/139/trunk/lib/commons-math-2.0.jar
+END
+junit-4.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/81/trunk/lib/junit-4.7.jar
+END
+velocity-1.6.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/178/trunk/lib/velocity-1.6.2.jar
+END
+commons-math-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/81/trunk/lib/commons-math-1.2.jar
+END
+log4j-1.2.15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/139/trunk/lib/log4j-1.2.15.jar
+END
+swt-debug.jar
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/185/trunk/lib/swt-debug.jar
+END
+jcommon.jar
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/81/trunk/lib/jcommon.jar
+END
+about.html
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/178/trunk/lib/about.html
+END
+net.sf.paperclips_1.0.4.200908120926.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/194/trunk/lib/net.sf.paperclips_1.0.4.200908120926.jar
+END
+jcommon-1.0.9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/139/trunk/lib/jcommon-1.0.9.jar
+END
+OTFeed.jar
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/81/trunk/lib/OTFeed.jar
+END
+jaxlib-0.6.4-sql.jar
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/139/trunk/lib/jaxlib-0.6.4-sql.jar
+END
+jaxlib.jar
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/139/trunk/lib/jaxlib.jar
+END
+jaxlib-0.6.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/139/trunk/lib/jaxlib-0.6.4.jar
+END
+commons-daemon.jar
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/152/trunk/lib/commons-daemon.jar
+END
+hsqldb.jar
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/139/trunk/lib/hsqldb.jar
+END
+jaxlib-0.6.4-arc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/139/trunk/lib/jaxlib-0.6.4-arc.jar
+END
+net.sf.paperclips.ui_1.0.4.200908120926.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/194/trunk/lib/net.sf.paperclips.ui_1.0.4.200908120926.jar
+END
+commons-math-2.0-sources.jar
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/81/trunk/lib/commons-math-2.0-sources.jar
+END
+jcalendar-1.3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/139/trunk/lib/jcalendar-1.3.2.jar
+END
+mail.jar
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/139/trunk/lib/mail.jar
+END
+JRI.jar
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/81/trunk/lib/JRI.jar
+END
+activeobjects-0.8.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/139/trunk/lib/activeobjects-0.8.2.jar
+END
+swt-3.5-win32-win32-x86.zip
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/81/trunk/lib/swt-3.5-win32-win32-x86.zip
+END
+junit.jar
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/81/trunk/lib/junit.jar
+END
+OtpErlang.jar
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/154/trunk/lib/OtpErlang.jar
+END
+commons-logging-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/159/trunk/lib/commons-logging-1.1.1.jar
+END
+itext.jar
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/81/trunk/lib/itext.jar
+END
+glazedlists-1.7.0_java15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/194/trunk/lib/glazedlists-1.7.0_java15.jar
+END
+propertyset-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/158/trunk/lib/propertyset-1.3.jar
+END
+jaxlib-0.6.4-core.jar
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/139/trunk/lib/jaxlib-0.6.4-core.jar
+END
+java_memcached-release_2.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/139/trunk/lib/java_memcached-release_2.0.1.jar
+END

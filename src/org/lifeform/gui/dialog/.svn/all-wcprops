@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/196/trunk/src/org/lifeform/gui/dialog
+END
+TradeMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/dialog/TradeMaker.java
+END
+JBTDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/dialog/JBTDialog.java
+END
+PreferencesDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/dialog/PreferencesDialog.java
+END
+AboutBox.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/196/trunk/src/org/lifeform/gui/dialog/AboutBox.java
+END
+Login.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/dialog/Login.java
+END
+ProgressBarDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/187/trunk/src/org/lifeform/gui/dialog/ProgressBarDialog.java
+END
+AboutDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/191/trunk/src/org/lifeform/gui/dialog/AboutDialog.java
+END
+TreeView.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/dialog/TreeView.java
+END
+StockTableTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/191/trunk/src/org/lifeform/gui/dialog/StockTableTree.java
+END
+FindReplaceDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/dialog/FindReplaceDialog.java
+END
+TradingModeDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/184/trunk/src/org/lifeform/gui/dialog/TradingModeDialog.java
+END

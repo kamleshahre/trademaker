@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/184/trunk/src/org/lifeform/product
+END
+Position.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/184/trunk/src/org/lifeform/product/Position.java
+END
+Forward.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/184/trunk/src/org/lifeform/product/Forward.java
+END
+LegHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/184/trunk/src/org/lifeform/product/LegHandler.java
+END
+Leg.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/184/trunk/src/org/lifeform/product/Leg.java
+END
+Option.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/184/trunk/src/org/lifeform/product/Option.java
+END
+FRA.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/184/trunk/src/org/lifeform/product/FRA.java
+END
+ExerciseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/124/trunk/src/org/lifeform/product/ExerciseType.java
+END
+Future.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/184/trunk/src/org/lifeform/product/Future.java
+END
+Swap.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/184/trunk/src/org/lifeform/product/Swap.java
+END
+AsianOpton.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/184/trunk/src/org/lifeform/product/AsianOpton.java
+END
+LongShort.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/124/trunk/src/org/lifeform/product/LongShort.java
+END
+Product.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/184/trunk/src/org/lifeform/product/Product.java
+END
+Underlying.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/184/trunk/src/org/lifeform/product/Underlying.java
+END
+Compounding.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/124/trunk/src/org/lifeform/product/Compounding.java
+END
+Bond.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/184/trunk/src/org/lifeform/product/Bond.java
+END
+Settlement.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/134/trunk/src/org/lifeform/product/Settlement.java
+END
+FixedLeg.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/184/trunk/src/org/lifeform/product/FixedLeg.java
+END
+ExerciseStyle.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/124/trunk/src/org/lifeform/product/ExerciseStyle.java
+END
+ProductIdentity.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/184/trunk/src/org/lifeform/product/ProductIdentity.java
+END
+MoneyMarket.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/184/trunk/src/org/lifeform/product/MoneyMarket.java
+END

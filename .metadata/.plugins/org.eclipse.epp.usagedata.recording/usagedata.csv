@@ -1,0 +1,8 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.epp.usagedata.ui,1.0.1.R200809220400,org.eclipse.epp.usagedata.ui,1251347513673
+started,bundle,org.eclipse.jsch.core,1.1.100.I20080604,org.eclipse.jsch.core,1251347513877
+started,bundle,org.eclipse.team.cvs.core,3.3.101.r34x_20090115,org.eclipse.team.cvs.core,1251347513897
+started,bundle,org.eclipse.team.ui,3.4.1.r34x_20080827,org.eclipse.team.ui,1251347513983
+started,bundle,org.eclipse.ui.console,3.3.1.v20090128_r342,org.eclipse.ui.console,1251347514152
+started,bundle,org.eclipse.team.cvs.ui,3.3.100.r34x_20090121,org.eclipse.team.cvs.ui,1251347514630
+deactivated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1251347515642
